@@ -46,6 +46,10 @@ export const HeaderWrapper = styled.header`
 		transition: border-color 0.2s;
 	}
 
+	button svg{
+		margin-top: 5px;
+	}
+
 	button:hover {
 		border-color: #999;
     }
