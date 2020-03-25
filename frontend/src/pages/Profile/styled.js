@@ -55,4 +55,17 @@ export const ProfileContainer = styled.div`
 		line-height: 21px;
 		font-size: 16px;
 	}
+
+	.empty{
+		display:flex;
+		justify-content:center;
+		padding-top:25vh;
+	}
+
+	.empty p{
+		color:#737380;
+		text-transform:uppercase;
+		font-weight:500;
+		letter-spacing:2px;
+	}
 `;
