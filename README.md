@@ -11,9 +11,8 @@
 ## Features
 Para o desenvolvimento do projeto foi utilizada uma stack com as seguintes tecnologias:
 
-- ⚛️ **React Js** — Livraria Javascript para construção de interfaces;
-- ⚛️ **React Native** — Livraria que provê uma maneira eficiente de criar aplicações nativas para Android e iOS;
 - 💹 **Node Js** — Web framework que permite utilizar javascript tanto no frontend quanto no backend;
+- ⚛️ **React Js** — Livraria Javascript para construção de interfaces;
 
 ## Projeto
 
