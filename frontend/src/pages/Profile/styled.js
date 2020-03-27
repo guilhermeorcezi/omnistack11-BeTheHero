@@ -30,7 +30,11 @@ export const ProfileContainer = styled.div`
 		top: 24px;
         border: 0;
         background-color: transparent
-    }
+	}
+	
+	.edit{
+		right:60px !important;
+	}
     
     ul li button svg{
         background:transparent
@@ -67,5 +71,17 @@ export const ProfileContainer = styled.div`
 		text-transform:uppercase;
 		font-weight:500;
 		letter-spacing:2px;
+	}
+
+	.section-edit{
+		display:flex;
+		align-content:center;
+		max-width:560px;
+		margin: 0 auto;
+
+	}
+
+	.section-edit input{
+		margin-bottom:15px;
 	}
 `;

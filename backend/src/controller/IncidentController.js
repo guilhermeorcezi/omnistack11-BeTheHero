@@ -28,14 +28,43 @@ module.exports = {
 		const { title, description, value } = req.body;
 		const ong_id = req.headers.authorization;
 
-		const [id] = await connection('incidents').insert({
-			title,
-			description,
-			value,
-			ong_id
-		});
+		try {
+			const [id] = await connection('incidents').insert({
+				title,
+				description,
+				value,
+				ong_id
+			});
 
-		return res.json({ id });
+			return res.json({ id });
+		} catch (err) {
+			console.log('erro é', err);
+		}
+	},
+
+	async update(req, res) {
+		const { title, description, value } = req.body;
+		const { id } = req.params;
+		const ong_id = req.headers.authorization;
+
+		const incident = await connection('incidents')
+			.where('id', id)
+			.select('ong_id')
+			.first();
+
+		if (incident.ong_id !== ong_id) {
+			return res.status(401).json({ error: 'Operation not permitted.' });
+		}
+
+		const update = await connection('incidents')
+			.where('id', id)
+			.update({
+				title,
+				description,
+				value
+			});
+
+		return res.json(update);
 	},
 
 	async delete(req, res) {
