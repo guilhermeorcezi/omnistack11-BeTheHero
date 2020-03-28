@@ -44,7 +44,7 @@ Assim que o processo terminar, automaticamente será aberta no seu navegador a p
 
 Resultado da aplicação Web:
 
-<h1 align="center"><img align="center" src="./github_assets/webgif.gif" alt="Omnistack 11 Web" width="700"></img></h1>
+<h1 align="center"><img align="center" src="./github_assets/webgif.gif" alt="Omnistack 11 Web" width="300" height="600"></img></h1>
 
 ### Mobile
 
