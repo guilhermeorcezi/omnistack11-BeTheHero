@@ -61,7 +61,7 @@ Assim que o processo terminar, automaticamente será aberta no seu navegador a p
 
 Resultado da aplicação Mobile:
 
-<h1 align="center"><img align="center" src="./github_assets/mobilegif.gif" alt="Omnistack 11 Mobile"  width="300" height="600"></img></h1>
+<h1 align="center"><img align="center" src="./github_assets/mobile.gif" alt="Omnistack 11 Mobile"  width="300" height="600"></img></h1>
 
 ### Insomnia 
 Para testar a API do Be The Hero, baixe e instale o [Insomnia](https://insomnia.rest/download/) e em seguida clique na Workspace → `Import/Export` → `Import Data` → `From File` → e selecione o arquivo ` 	Insomnia_export.json` deste repositório.
