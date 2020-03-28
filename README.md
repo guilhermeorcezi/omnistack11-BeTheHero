@@ -33,14 +33,18 @@ yarn install
 yarn dev
 ```
 
-### Instalação - Frontend
+### Instalação - Frontend (WEB)
 Para iniciar o **Frontend** do React utilize os comandos:
 ```bash
 cd frontend
 yarn install
 yarn start
 ```
-Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:3000` contendo o Projeto desenvolvido no dia 3 de 5.  
+Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:3000` contendo o Projeto desenvolvido no dia 3 de 5.
+
+Resultado da aplicação Web:
+
+<h1 align="center"><img align="center" src="./github_assets/webgif.gif" alt="Omnistack 11 Web" width="700"></img></h1>
 
 ### Mobile
 
@@ -54,6 +58,10 @@ yarn start
 ```
 
 Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:19002`. Conecte seu emulador, ou teste o aplicativo por `LAN`: baixe o aplicativo *Expo* da Play Store ou App Store e em seguida escaneie o código QR.
+
+Resultado da aplicação Mobile:
+
+<h1 align="center"><img align="center" src="./github_assets/mobilegif.gif" alt="Omnistack 11 Mobile" width="700"></img></h1>
 
 ### Insomnia 
 Para testar a API do Be The Hero, baixe e instale o [Insomnia](https://insomnia.rest/download/) e em seguida clique na Workspace → `Import/Export` → `Import Data` → `From File` → e selecione o arquivo ` 	Insomnia_export.json` deste repositório.
