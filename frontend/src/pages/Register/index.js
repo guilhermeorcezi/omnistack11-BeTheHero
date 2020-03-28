@@ -26,7 +26,7 @@ export default function Register() {
 			const response = await api.post('ongs', data);
 			toast.success(`Cadastrado com sucesso! ID:${response.data.id}`, {
 				position: 'bottom-right',
-				autoClose: 3000,
+				autoClose: 12000,
 				hideProgressBar: false,
 				closeOnClick: true,
 				pauseOnHover: false,
