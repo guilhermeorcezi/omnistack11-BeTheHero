@@ -12,8 +12,8 @@
 Para o desenvolvimento do projeto foi utilizada uma stack com as seguintes tecnologias:
 
 - 💹 **Node Js** — Web framework que permite utilizar javascript tanto no frontend quanto no backend;
-- 🛢️ **Knex** Builder de SQL Query para Javascript
-- 💅 **Styled Components** - Tecnologia para componentizar estilização CSS no React através do Javascript
+- 🛢️ **Knex** — Builder de SQL Query para Javascript
+- 💅 **Styled Components** — Tecnologia para componentizar estilização CSS no React através do Javascript
 - ⚛️ **React Js** — Livraria Javascript para construção de interfaces;
 - ⚛️ **React Native** — Livraria que provê uma maneira eficiente de criar aplicações nativas para Android e iOS;
 
